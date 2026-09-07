@@ -11,3 +11,8 @@ void Student::PrintInfo() const
     std::cout << "Age: " << age << std::endl;
     std::cout << "Course" << course << std::endl;
 }
+
+int Student::GetAge() const
+{
+    return age;
+}

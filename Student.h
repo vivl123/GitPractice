@@ -13,4 +13,6 @@ public:
     Student(const std::string& name, int age, int course);
 
     void PrintInfo() const;
+
+    int GetAge() const;
 };
